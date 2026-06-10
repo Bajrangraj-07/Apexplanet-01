@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bajrang | Web Dev Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">&lt;Bajrang /&gt;</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-badge">👋 Open to Opportunities</div>
+    <h1>Hi, I'm <span>Bajrang</span><br/>Web Developer</h1>
+    <p>CSE student at JUT Ranchi building modern web experiences with HTML, CSS & JavaScript.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Say Hello</a>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">Who am I?</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>🎓 Education</h3>
+        <p>B.Tech in Computer Science & Engineering at Jharkhand University of Technology, Ranchi.</p>
+      </div>
+      <div class="about-card">
+        <h3>💡 Interests</h3>
+        <p>Full Stack Development, AI/ML, building tools that solve real problems.</p>
+      </div>
+      <div class="about-card">
+        <h3>🛠️ Currently Learning</h3>
+        <p>Java OOP, Algorithms (CLRS), Operating Systems, and modern web development.</p>
+      </div>
+      <div class="about-card">
+        <h3>🚀 Goal</h3>
+        <p>Build impactful projects and grow as a full-stack developer in the tech industry.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Tech Stack</div>
+    <h2 class="section-title">Skills & Tools</h2>
+    <div class="skills-grid">
+      <div class="skill-pill"><div class="icon">🌐</div><span>HTML5</span></div>
+      <div class="skill-pill"><div class="icon">🎨</div><span>CSS3</span></div>
+      <div class="skill-pill"><div class="icon">⚡</div><span>JavaScript</span></div>
+      <div class="skill-pill"><div class="icon">☕</div><span>Java</span></div>
+      <div class="skill-pill"><div class="icon">🐍</div><span>Python</span></div>
+      <div class="skill-pill"><div class="icon">🗄️</div><span>SQL</span></div>
+      <div class="skill-pill"><div class="icon">🐙</div><span>Git/GitHub</span></div>
+      <div class="skill-pill"><div class="icon">💻</div><span>VS Code</span></div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Work</div>
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-tag">Featured</div>
+        <h3>🎵 Music Player</h3>
+        <p>A fully functional web music player with playlist support, custom controls, and audio playback. Hosted on GitHub Pages.</p>
+        <div class="project-stack">
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-tag">ApexPlanet Task 1</div>
+        <h3>🌍 Portfolio Webpage</h3>
+        <p>This very page — built with semantic HTML, responsive CSS layout, and JavaScript interactivity as part of the ApexPlanet internship task.</p>
+        <div class="project-stack">
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-box">
+      <p>Have a project idea or just want to say hi? Drop your details below!</p>
+      <div class="input-row">
+        <input type="text" id="nameInput" placeholder="Your Name" />
+        <input type="email" id="emailInput" placeholder="Your Email" />
+      </div>
+      <button class="btn btn-primary" onclick="sendGreeting()">👋 Say Hello</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Built with ❤️ by <strong>Bajrang</strong> 
+    </p>
+  </footer>
+
+  <script src="task1.js"></script>
+</body>
+</html>
